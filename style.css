@@ -1,0 +1,35 @@
+
+#container{
+    border: 2px solid rgb(174, 173, 244);
+    height: 600px;
+    width: 1900px;
+    background-color:aliceblue;
+}
+.box img{
+    width: 25%;
+    position: relative;
+    top:100px ;
+    
+}
+#ball{
+    width: 5%;
+    position: relative;
+    left: 440px;
+    bottom: 10px;
+    transition:transform 1s ease-out 0.4S;
+   
+}
+#container:hover #ball{
+    transform: translate(1600px,-500px);
+}
+#bat{
+    position: relative;
+    transform-origin: top;
+    bottom: 50px;
+    left: 50px;
+    width: 60%;
+    transition: transform 1s ease-out;
+}
+#container:hover #bat{
+    transform: rotate(-60deg);
+}
